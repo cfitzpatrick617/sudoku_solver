@@ -1,6 +1,6 @@
-# Classic Sudoku Solver
+# Classic 9x9 Sudoku Solver
 
-An algorithm that solves any valid 9x9 classic sudoku board. Created with constraint programming using the [pychoco](https://pypi.org/project/pychoco/) library.
+An algorithm that solves any valid classic 9x9 sudoku board. Created with constraint programming using the [pychoco](https://pypi.org/project/pychoco/) library.
 
 The rules of classic sudoku can be found [here](https://en.wikipedia.org/wiki/Sudoku).
 
