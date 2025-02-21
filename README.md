@@ -11,7 +11,7 @@ def solve(grid: str, placeholder: str = ".")
 ```
 
 - **grid**: an 81 character string representing a 9x9 sudoku grid
-- **placeholder**: unknown values within the grid, defaults to . but can be changed
+- **placeholder**: unknown values within the grid, defaults to .
 
 ## Output
 
