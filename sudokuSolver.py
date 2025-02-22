@@ -7,7 +7,7 @@ def get_square(grid, n):
     return [grid[r+(3*sq_row)][c+(3*sq_col)] for r in range(3) for c in range(3)]
 
 
-def solve(grid: list[str]):
+def solve(grid: list[int]):
     model = Model("Sudoku Solver")
     # create 9x9 grid
     model_grid = model.intvars((9, 9), 1, 9)
