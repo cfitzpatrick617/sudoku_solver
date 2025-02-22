@@ -7,34 +7,31 @@ The rules of classic sudoku can be found [here](https://en.wikipedia.org/wiki/Su
 ## Input
 
 ```python
-def solve(grid: str, placeholder: str = ".")
+def solve(grid: list[int])
 ```
 
-- **grid**: an 81 character string representing a 9x9 sudoku grid
-- **placeholder**: unknown values within the grid, defaults to .
+- **grid**: a 9x9 sudoku grid represented as a 2d list (unknown values should be set to 0)
 
 ## Output
 
 If the given input is valid, the solver will display the solution in a grid format.
 
 ```
-SOLUTION FOUND
-8 1 2 | 7 5 3 | 6 4 9 
-9 4 3 | 6 8 2 | 1 7 5 
-6 7 5 | 4 9 1 | 2 8 3 
----------------------
-1 5 4 | 2 3 7 | 8 9 6 
-3 6 9 | 8 4 5 | 7 2 1 
-2 8 7 | 1 6 9 | 5 3 4 
----------------------
-5 2 1 | 9 7 4 | 3 6 8 
-4 3 8 | 5 2 6 | 9 1 7 
-7 9 6 | 3 1 8 | 4 5 2 
+Solution Found.
+[8, 6, 2, 4, 1, 3, 5, 9, 7]
+[5, 9, 3, 6, 7, 8, 2, 1, 4]
+[1, 7, 4, 5, 9, 2, 8, 6, 3]
+[2, 5, 9, 3, 8, 7, 1, 4, 6]
+[3, 1, 6, 9, 4, 5, 7, 2, 8]
+[7, 4, 8, 1, 2, 6, 9, 3, 5]
+[4, 3, 1, 7, 5, 9, 6, 8, 2]
+[6, 8, 5, 2, 3, 1, 4, 7, 9]
+[9, 2, 7, 8, 6, 4, 3, 5, 1]
 ```
 
 A grid that does not follow fundamental sudoku rules will have no solution.
 
 ```
-NO SOLUTION FOUND
+No Solution Found.
 ```
  
