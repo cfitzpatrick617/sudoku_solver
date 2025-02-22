@@ -7,7 +7,7 @@ The rules of classic sudoku can be found [here](https://en.wikipedia.org/wiki/Su
 ## Input
 
 ```python
-def solve(grid: list[int])
+def solve(grid: list[list[int]])
 ```
 
 - **grid**: a 9x9 sudoku grid represented as a 2d list (unknown values should be set to 0)
