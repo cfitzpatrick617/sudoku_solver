@@ -10,7 +10,7 @@ The rules of classic sudoku can be found [here](https://en.wikipedia.org/wiki/Su
 def solve(grid: list[list[int]])
 ```
 
-- **grid**: a 9x9 sudoku grid represented as a 2d list (unknown values should be set to 0)
+- **grid**: a 9x9 sudoku grid represented as a 2d list of integers (unknown values should be set to 0)
 
 ## Output
 
